@@ -1,0 +1,82 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.img_logo{
+    width: 117px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    height: 100%;
+
+    
+}
+
+.item_menu{
+    color: #004a8d;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.6s;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    /* outas opções para separar o icone de (pesquisa) */
+}
+
+.item_menu:hover{
+    color: #f7941d;
+    cursor: pointer;
+}
+
+
+.info_nav{
+    background-color: #004a8d;
+    width: 100%;
+    padding: 10px 0;
+    
+}
+
+.info_nav_pag{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    gap: 0.7rem;
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 !important;
+}
+
+.texts{ 
+    width: 70%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem 2rem;
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.texts h2{
+    font-size: 2.3rem;
+    width: 60%;
+    text-align: left;
+}
+
+.texts p {
+    text-align: justify;
+    width: 100%;
+    font-size: 1.2rem;
+}

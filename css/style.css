@@ -80,3 +80,23 @@ header{
     width: 100%;
     font-size: 1.2rem;
 }
+
+.texts a{
+    width: 370px;
+    height: 65px;
+    background-color: #f7941d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.texts a:hover{
+    background-color: #4cbf69;
+
+}

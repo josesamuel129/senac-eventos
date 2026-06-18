@@ -98,3 +98,35 @@ header{
     background-color: #4cbf69;
 
 }
+
+main{
+    background-color: #fff;
+}
+
+@media (max-width: 576px) {
+    .texts{
+        display: none !important;
+    }
+
+    .nav li{
+        width: 100%;
+    }
+
+    .nav input{
+        width: 500px;
+    }
+
+    .card_eventos{
+        width: 100%;
+    }
+
+    .conteiner_cards{
+        width: 85%;
+        padding: 0;
+    }
+    
+    .card_eventos{
+        width: 100%;
+    }
+
+}
